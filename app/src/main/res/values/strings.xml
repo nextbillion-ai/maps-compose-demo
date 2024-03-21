@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name" translatable="false">maps compose demo</string>
+    <string name="nb_map_main_feature_item_basic" translatable="false">Basic functions</string>
+    <string name="nb_map_main_feature_item_overlay" translatable="false">Basic Overlay functions</string>
+    <string name="nb_map_main_feature_item_blue_location" translatable="false">Map positioning function</string>
+    <string name="nb_map_main_feature_item_map_camera_move" translatable="false">Map camera move animation function</string>
+    <string name="nb_map_main_feature_item_info_window" translatable="false">Info Window Demo</string>
+    <string name="nb_map_main_feature_item_custom_puck" translatable="false">Custom Puck Icon</string>
+    <string name="nb_map_main_feature_item_custom_pulsing" translatable="false">Custom Puck Pulsing</string>
+    <string name="nb_map_main_feature_launch_effect" translatable="false">Launch Effect</string>
+    <string name="nb_map_main_feature_init_camera" translatable="false">Init camera position and map style</string>
+    <string name="nb_map_main_feature_item_polyline" translatable="false">Polyline</string>
+    <string name="nb_map_main_feature_item_polygon" translatable="false">Polygon</string>
+    <string name="nb_map_main_feature_route_line" translatable="false">Draw route plan</string>
+    <string name="nb_map_main_feature_click_listener" translatable="false">Map click listener</string>
+
+
+    <string name="nb_map_location_gps_no_open" translatable="false">Location services failed. Please enable location services to retrieve your location information</string>
+    <string name="nb_map_location_gps_dialog_cancel" translatable="false">Cancel</string>
+    <string name="nb_map_location_gps_dialog_ok" translatable="false">Turn on location service</string>
+
+    <string name="location_tracking_normal" translatable="false">Normal</string>
+    <string name="location_tracking_compass" translatable="false">Compass</string>
+    <string name="location_tracking_GPS" translatable="false">GPS</string>
+
+    <string name="location_tracking_none" translatable="false">None</string>
+    <string name="location_tracking_none_compass" translatable="false">None Compass</string>
+    <string name="location_tracking_none_gps" translatable="false">None GPS</string>
+    <string name="location_tracking_tracking" translatable="false">Tracking</string>
+    <string name="location_tracking_tracking_compass" translatable="false">Tracking Compass</string>
+    <string name="location_tracking_tracking_gps" translatable="false">Tracking GPS</string>
+    <string name="location_tracking_tracking_north" translatable="false">Tracking GPS North</string>
+
+    <string name="location_setting_disable_component" translatable="false">Disable Component</string>
+    <string name="location_setting_enable_component" translatable="false">Enable Component</string>
+    <string name="location_setting_disable_gesture_management" translatable="false">Disable Gesture Management</string>
+    <string name="location_setting_enable_gesture_management" translatable="false">Enable Gesture Management</string>
+    <string name="location_setting_enable_animation_throttling" translatable="false">Enable animation throttling</string>
+    <string name="location_setting_disable_animation_throttling" translatable="false">Disable animation throttling</string>
+    <string name="location_setting_animate_tracking" translatable="false">Animate while tracking</string>
+
+    <string name="location_setting_enable_pulsing" translatable="false">Enable Pulsing</string>
+    <string name="location_setting_disable_pulsing" translatable="false">Disable Pulsing</string>
+</resources>

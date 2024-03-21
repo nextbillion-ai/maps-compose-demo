@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_feature_items">
+        <item>@string/nb_map_main_feature_item_basic</item>
+        <item>@string/nb_map_main_feature_item_overlay</item>
+        <item>@string/nb_map_main_feature_launch_effect</item>
+        <item>@string/nb_map_main_feature_init_camera</item>
+        <item>@string/nb_map_main_feature_item_blue_location</item>
+        <item>@string/nb_map_main_feature_item_map_camera_move</item>
+        <item>@string/nb_map_main_feature_item_info_window</item>
+        <item>@string/nb_map_main_feature_item_custom_puck</item>
+        <item>@string/nb_map_main_feature_item_custom_pulsing</item>
+        <item>@string/nb_map_main_feature_item_polyline</item>
+        <item>@string/nb_map_main_feature_item_polygon</item>
+        <item>@string/nb_map_main_feature_route_line</item>
+        <item>@string/nb_map_main_feature_click_listener</item>
+    </string-array>
+</resources>
