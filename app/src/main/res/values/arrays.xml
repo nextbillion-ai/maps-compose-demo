@@ -14,5 +14,6 @@
         <item>@string/nb_map_main_feature_item_polygon</item>
         <item>@string/nb_map_main_feature_route_line</item>
         <item>@string/nb_map_main_feature_click_listener</item>
+        <item>@string/nb_map_main_feature_bottom_sheet</item>
     </string-array>
 </resources>

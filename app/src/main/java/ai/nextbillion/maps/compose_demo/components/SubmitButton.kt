@@ -25,38 +25,38 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun SubmitButton(
-    modifier: Modifier,
+    modifier: Modifier = Modifier,
     enabled: Boolean = true,
     @StringRes buttonTextRes: Int? = null,
     buttonText: String? = null,
     buttonHeight: Dp,
     shapeRadius: Dp = 4.dp,
     fontSize: TextUnit = 14.sp,
-    background:Color = Color(0xFF668EF7),
-    textColor:Color = Color(0XFFFFFFFF),
+    background: Color = Color(0xFF668EF7),
+    textColor: Color = Color(0xFFFFFFFF),
     onClick: () -> Unit
 ) {
     val interactionSource = remember { MutableInteractionSource() }
-    val indication = rememberRipple()
-    Box(modifier = modifier
-        .height(buttonHeight)
-        .background(
-            color = background,
-            shape = RoundedCornerShape(shapeRadius)
-        )
-        .clip(RoundedCornerShape(shapeRadius))
-        .clickable(
-            enabled = enabled,
-            interactionSource = interactionSource,
-            indication = indication
-        ) {
-            onClick.invoke()
-        }
+
+    Box(
+        modifier = modifier
+            .height(buttonHeight)
+            .background(
+                color = background,
+                shape = RoundedCornerShape(shapeRadius)
+            )
+            .clickable(
+                enabled = enabled,
+//                interactionSource = interactionSource,
+                // ❌ REMOVE indication = rememberRipple()
+                // ✅ Compose will apply the ripple from the MaterialTheme
+                onClick = onClick
+            ),
+        contentAlignment = Alignment.Center
     ) {
+        val text = buttonTextRes?.let { stringResource(id = it) } ?: buttonText.orEmpty()
         Text(
-            modifier = Modifier.align(Alignment.Center),
-            text = if (null != buttonTextRes) stringResource(id = buttonTextRes) else buttonText
-                ?: "",
+            text = text,
             style = TextStyle(
                 color = textColor,
                 fontSize = fontSize,
