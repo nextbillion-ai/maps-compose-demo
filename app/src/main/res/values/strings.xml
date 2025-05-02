@@ -13,6 +13,7 @@
     <string name="nb_map_main_feature_item_polygon" translatable="false">Polygon</string>
     <string name="nb_map_main_feature_route_line" translatable="false">Draw route plan</string>
     <string name="nb_map_main_feature_click_listener" translatable="false">Map click listener</string>
+    <string name="nb_map_main_feature_bottom_sheet" translatable="false">Map bottom sheet</string>
 
 
     <string name="nb_map_location_gps_no_open" translatable="false">Location services failed. Please enable location services to retrieve your location information</string>

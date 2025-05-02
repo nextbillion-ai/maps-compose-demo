@@ -63,7 +63,7 @@
         <activity android:name=".PolygonActivity" android:exported="false"/>
         <activity android:name=".ApiClientActivity" android:exported="false"/>
         <activity android:name=".ClickListenerActivity" android:exported="false"/>
-
+        <activity android:name=".BottomSheetMapActivity" android:exported="false"/>
 
     </application>
 

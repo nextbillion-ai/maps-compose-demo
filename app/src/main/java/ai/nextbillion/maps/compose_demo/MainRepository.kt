@@ -52,10 +52,10 @@ object MainRepository {
             StringUtils.getString(R.string.nb_map_main_feature_click_listener) -> {
                 startActivity(Intent(SDKUtils.getApplicationContext(),ClickListenerActivity::class.java))
             }
+            StringUtils.getString(R.string.nb_map_main_feature_bottom_sheet) -> {
+                startActivity(Intent(SDKUtils.getApplicationContext(),BottomSheetMapActivity::class.java))
+            }
 
-//            StringUtils.getString(R.string.nb_map_main_feature_item_smooth_move) -> {
-//                startActivity(Intent(SDKUtils.getApplicationContext(),SmoothMoveActivity::class.java))
-//            }
 //            StringUtils.getString(R.string.nb_map_main_feature_item_drag_drop_select_point) -> {
 //                startActivity(Intent(SDKUtils.getApplicationContext(),DragDropSelectPointActivity::class.java))
 //            }

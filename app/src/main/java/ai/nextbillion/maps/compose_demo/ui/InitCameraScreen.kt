@@ -15,16 +15,19 @@ internal fun InitCameraScreen() {
     Box(modifier = Modifier.fillMaxSize()) {
         NextBillionMap(
             modifier = Modifier.fillMaxSize(),
-            mapType = MapType.SATELLITE,
+            mapType = MapType.NORMAL,
             mapOptionsFactory = { context ->
                 NextbillionMapOptions.createFromAttributes(context)
                     .camera(
                         CameraPosition.Builder()
-                            .target(LatLng(21.142364, 79.094730))
+                            .target(LatLng(1.0, 40.0))
                             .zoom(12.0)
                             .build()
                     )
-            }
+                    .tiltGesturesEnabled(false)
+                    .minZoomPreference(10.0)
+                    .maxZoomPreference(14.0)
+            },
         )
     }
 }
